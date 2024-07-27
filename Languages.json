@@ -2,5 +2,9 @@
     {
         "Name":"🇬🇧 English",
         "File":"ENGLISH.json"
+    },
+    {
+        "Name":"🇪🇸 Español",
+        "File":"SPANISH.json"
     }
 ]
