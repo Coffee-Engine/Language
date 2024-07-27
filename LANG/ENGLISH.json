@@ -8,5 +8,5 @@
     "engine.home.loadFile":"Load from File",
     "engine.home.loadFolder":"Load from Folder",
     "engine.home.noRecentProjects":"No Recent Projects",
-    "engine.home.lastEdited":"Last edited : [TIME]",
+    "engine.home.lastEdited":"Last edited : [TIME]"
 }
