@@ -1,0 +1,13 @@
+{
+    "engine.setup.start":"Configuración de Coffee Engine",
+    "engine.setup.languageSelect":"Idioma",    
+
+
+    "engine.home.welcome":"Dar la bienvenida Coffee Engine",
+    "engine.home.splashAuthor":"Imagen Anunciadora por [AUTHOR]",
+    "engine.home.newProject":"Nuevo Proyecto",
+    "engine.home.loadFile":"Cargo del Archivo",
+    "engine.home.loadFolder":"Cargar del Carpeta",
+    "engine.home.noRecentProjects":"No Proyectos Recientes",
+    "engine.home.lastEdited":"Últimos cambios en : [TIME]"
+}
