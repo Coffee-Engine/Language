@@ -1,10 +1,10 @@
 [
     {
-        "Name":"🇬🇧 English",
-        "File":"ENGLISH.json"
+        "Name":"English",
+        "File":"ENGLISH"
     },
     {
-        "Name":"🇪🇸 Español",
-        "File":"SPANISH.json"
+        "Name":"Español",
+        "File":"SPANISH"
     }
 ]
