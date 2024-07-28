@@ -9,5 +9,21 @@
     "engine.home.loadFile":"Cargo del Archivo",
     "engine.home.loadFolder":"Cargar del Carpeta",
     "engine.home.noRecentProjects":"No Proyectos Recientes",
-    "engine.home.lastEdited":"Últimos cambios en : [TIME]"
+    "engine.home.lastEdited":"Últimos cambios en : [TIME]",
+    "engine.home.engineConfig":"Configuración de Motor",
+
+
+    "engine.settings.welcome":"Configuración de Motor",
+    "engine.settings.category.Theme":"esquema de colores",
+    "engine.settings.category.Theme.themeColor":"Color de Editor",
+
+    "engine.settings.category.SugarCube":"SugarCube",
+    "engine.settings.category.SugarCube.notchWidth":"Corte Ancho",
+    "engine.settings.category.SugarCube.notchHeight":"Corte Altura",
+    "engine.settings.category.SugarCube.cornerSize":"Esquina Tamaño",
+    "engine.settings.category.SugarCube.padding":"Acolchado",
+
+    "engine.settings.category.Monaco":"Monaco",
+
+    "engine.generic.back": "Espalda"
 }

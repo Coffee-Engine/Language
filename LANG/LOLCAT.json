@@ -1,0 +1,29 @@
+{
+    "engine.setup.start":"Engines Setup :3",
+    "engine.setup.languageSelect":"Lengwage",
+
+
+    "engine.home.welcome":"Welcome to Cawfee Engeene",
+    "engine.home.splashAuthor":"Spwash fwom [AUTHOR]",
+    "engine.home.newProject":"Nowo Pwojewct",
+    "engine.home.loadFile":"Lowd fwom Fiwe",
+    "engine.home.loadFolder":"Lowd fwom Fowder",
+    "engine.home.noRecentProjects":"No Receewn Pwoject :(",
+    "engine.home.lastEdited":"Last Eatwen : [TIME] :3",
+    "engine.home.engineConfig":"Engine Sewwings",
+
+
+    "engine.settings.welcome":"Engine Sewwings",
+    "engine.settings.category.Theme":"Theam oWo",
+    "engine.settings.category.Theme.themeColor":"Wow so Colors",
+
+    "engine.settings.category.SugarCube":"Sugaw Cuwbe",
+    "engine.settings.category.SugarCube.notchWidth":"Spiky Width",
+    "engine.settings.category.SugarCube.notchHeight":"Spiky Height",
+    "engine.settings.category.SugarCube.cornerSize":"woundness",
+    "engine.settings.category.SugarCube.padding":"Pillowly-ness",
+
+    "engine.settings.category.Monaco":"MonOwO",
+
+    "engine.generic.back": "Bawk"
+}
