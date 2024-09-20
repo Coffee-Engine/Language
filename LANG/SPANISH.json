@@ -25,5 +25,24 @@
 
     "engine.settings.category.Monaco":"Monaco",
 
-    "engine.generic.back": "Espalda"
+    "engine.generic.back": "Espalda",
+
+    "editor.window.log": "Registro",
+    "editor.window.log.clear": "nombre",
+
+    "editor.window.sugarcube": "SugarCube",
+
+    "editor.window.createVar": "Crear una Variable",
+    "editor.window.createVar.temporaryName": "Nombre de Variable",
+    "editor.window.createVar.variable": "Variable",
+    "editor.window.createVar.list": "Lista",
+
+    "editor.window.createBlock": "Crear un Bloque",
+    "editor.window.createBlock.textInput": "Texto",
+    "editor.window.createBlock.numberInput": "Número",
+    "editor.window.createBlock.colorInput": "Color",
+    "editor.window.createBlock.arrayInput": "Lista",
+    "editor.window.createBlock.objectInput": "Objeto",
+    "editor.window.createBlock.booleanInput": "Booleano",
+    "editor.window.createBlock.addLabel": "Etiqueta",
 }
