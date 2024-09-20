@@ -1,6 +1,7 @@
 {
     "engine.setup.start":"Configuración de Coffee Engine",
-    "engine.setup.languageSelect":"Idioma",    
+    "engine.setup.languageSelect":"Idioma",
+    "engine.setup.layoutSelect": "Disposición",
 
 
     "engine.home.welcome":"Dar la bienvenida Coffee Engine",
@@ -14,14 +15,26 @@
 
 
     "engine.settings.welcome":"Configuración de Motor",
+    
+    "engine.settings.category.Window": "Ventana",
+    "engine.settings.category.Window.grabSize": "Margen de Redimensiona Ventana",
+    "engine.settings.category.Window.barHeight": "Altura de Barra de Tareas",
+    
     "engine.settings.category.Theme":"esquema de colores",
     "engine.settings.category.Theme.themeColor":"Color de Editor",
+    "engine.settings.category.Theme.backgroundColor": "Color de Fondo",
+    "engine.settings.category.Theme.textColor": "Color de Texto",
+    "engine.settings.category.Theme.warnColor": "Color de Aviso",
+    "engine.settings.category.Theme.errorColor": "Color de Error",
+    "engine.settings.category.Theme.warnTextColor": "Color de Texto Aviso",
+    "engine.settings.category.Theme.errorTextColor": "Color de Texto Error",
 
     "engine.settings.category.SugarCube":"SugarCube",
     "engine.settings.category.SugarCube.notchWidth":"Corte Ancho",
     "engine.settings.category.SugarCube.notchHeight":"Corte Altura",
     "engine.settings.category.SugarCube.cornerSize":"Esquina Tamaño",
     "engine.settings.category.SugarCube.padding":"Acolchado",
+    "engine.settings.category.SugarCube.flyOutOpacity": "Opacidad de Desde el Menú",
 
     "engine.settings.category.Monaco":"Monaco",
 
@@ -44,5 +57,5 @@
     "editor.window.createBlock.arrayInput": "Lista",
     "editor.window.createBlock.objectInput": "Objeto",
     "editor.window.createBlock.booleanInput": "Booleano",
-    "editor.window.createBlock.addLabel": "Etiqueta",
+    "editor.window.createBlock.addLabel": "Etiqueta"
 }
