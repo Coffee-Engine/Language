@@ -54,5 +54,5 @@
     "editor.window.createBlock.arrayInput": "List",
     "editor.window.createBlock.objectInput": "Object",
     "editor.window.createBlock.booleanInput": "Boolean",
-    "editor.window.createBlock.addLabel": "Label",
+    "editor.window.createBlock.addLabel": "Label"
 }
