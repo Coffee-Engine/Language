@@ -13,9 +13,15 @@
     "engine.home.noRecentProjects": "No Recent Projects",
     "engine.home.lastEdited": "Last edited : [TIME]",
     "engine.home.engineConfig": "Engine Settings",
+    "engine.home.engineCredits": "Engine Credits",
+
+    "engine.credits.welome": "Credits",
+    "engine.credits.madeBy": "Coffee Engine is made by",
+    "engine.credits.programmers": "Engine Programmers",
+    "engine.credits.translators": "Translators",
+    "engine.credits.assetMaker": "Asset Contributor",
 
     "engine.settings.welcome": "Engine Settings",
-
 
     "engine.settings.category.Window": "Window",
     "engine.settings.category.Window.grabSize": "Window Resize Margin",
@@ -23,7 +29,7 @@
     "engine.settings.category.Window.barStyle": "Taskbar Style",
 
     "engine.settings.category.Window.barStyle.Flat": "Flat",
-    "engine.settings.category.Window.barStyle.Aero": "Frutiger Aero",
+    "engine.settings.category.Window.barStyle.Aero": "Aero",
 
     "engine.settings.category.Window.tabMode": "Taskbar Tabs",
 
@@ -39,6 +45,7 @@
     "engine.settings.category.Theme.errorColor": "Error Color",
     "engine.settings.category.Theme.warnTextColor": "Warning Text Color",
     "engine.settings.category.Theme.errorTextColor": "Error Text Color",
+    "engine.settings.category.Theme.linkColor": "Link Color",
 
     "engine.settings.category.Theme.themeColor.Mocha": "Mocha",
     "engine.settings.category.Theme.themeColor.Cocoa": "Cocoa",
@@ -82,21 +89,37 @@
     "engine.settings.category.Monaco.colorCommentDocType": "JS Doc Type Color",
 
     "engine.generic.back": "Back",
+    "engine.generic.done": "Done",
 
-    "editor.window.log": "Log",
-    "editor.window.log.clear": "clear",
+    "editor.dropdown.project": "Project",
+    "editor.dropdown.project.save": "Save Project",
+    "editor.dropdown.project.saveSeperate": "Save a Copy",
+    "editor.dropdown.project.saveDecaf": "Save Project as .decaf",
+    "editor.dropdown.project.projectSettings": "Project Settings",
+    "editor.dropdown.project.importFile": "Import File",
+
+    "editor.dropdown.window": "Windows",
+
+    "editor.window.debugLog": "Log",
+    "editor.window.debugLog.clear": "clear",
+
     "editor.window.sceneTree": "Scene Tree",
+    "editor.window.sceneTree.addObject": "Add Object",
 
     "editor.window.fileExplorer": "Project Files",
+    "editor.window.fileExplorer.select": "Select a File",
     "editor.window.fileExplorer.reading": "Reading Files",
+
+    "editor.window.viewport": "Viewport",
 
     "editor.window.codeEditor": "Code Editor",
     "editor.window.codeEditor.newScript": "New Script",
     "editor.window.codeEditor.saveScript": "Save Script",
     "editor.window.codeEditor.loadScript": "Load Script",
     "editor.window.createScript": "New Script",
-
     "editor.window.sugarcube": "SugarCube",
+    "editor.window.javascript": "Javascript",
+    "editor.window.javascript.commentMessage": "This is a default behavior!",
 
     "editor.window.createVar": "Create a Variable",
     "editor.window.createVar.temporaryName": "Variable Name",
@@ -113,5 +136,5 @@
     "editor.window.createBlock.booleanInput": "Boolean",
     "editor.window.createBlock.addLabel": "Label",
     "editor.window.createBlock.statementInput": "Statement",
-    "editor.window.createBlock.referenceInput": "Function"
+    "editor.window.createBlock.referenceInput": "Function",
 }
