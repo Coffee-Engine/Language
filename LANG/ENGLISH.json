@@ -20,8 +20,15 @@
     "engine.credits.programmers": "Engine Programmers",
     "engine.credits.translators": "Translators",
     "engine.credits.assetMaker": "Asset Contributor",
+    "engine.credits.resources": "Resources Used",
 
     "engine.settings.welcome": "Engine Settings",
+
+    "engine.settings.category.Editor": "Editor",
+    "engine.settings.category.Editor.changeLanguage": "Change Language",
+    "engine.settings.category.Editor.changeLayout": "Change Layout",
+    "engine.settings.category.Editor.clearLocalStorage": "Clear Data",
+    "engine.settings.category.Editor.clearLocalStorage.cleared": "Data Cleared",
 
     "engine.settings.category.Window": "Window",
     "engine.settings.category.Window.grabSize": "Window Resize Margin",
@@ -106,6 +113,8 @@
     "editor.window.sceneTree": "Scene Tree",
     "editor.window.sceneTree.addObject": "Add Object",
 
+    "editor.window.nodeMaker":"Add a Node",
+
     "editor.window.fileExplorer": "Project Files",
     "editor.window.fileExplorer.select": "Select a File",
     "editor.window.fileExplorer.reading": "Reading Files",
@@ -136,5 +145,5 @@
     "editor.window.createBlock.booleanInput": "Boolean",
     "editor.window.createBlock.addLabel": "Label",
     "editor.window.createBlock.statementInput": "Statement",
-    "editor.window.createBlock.referenceInput": "Function",
+    "editor.window.createBlock.referenceInput": "Function"
 }
