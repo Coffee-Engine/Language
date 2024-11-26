@@ -118,6 +118,9 @@
     "editor.window.fileExplorer": "Project Files",
     "editor.window.fileExplorer.select": "Select a File",
     "editor.window.fileExplorer.reading": "Reading Files",
+    "editor.window.fileExplorer.delete": "Delete",
+    "editor.window.fileExplorer.rename": "Rename",
+    "editor.window.fileExplorer.openInCode": "Open in Code Editor",
 
     "editor.window.viewport": "Viewport",
 
@@ -125,10 +128,15 @@
     "editor.window.codeEditor.newScript": "New Script",
     "editor.window.codeEditor.saveScript": "Save Script",
     "editor.window.codeEditor.loadScript": "Load Script",
+    "editor.window.codeEditor.openScript": "Open Shortcut",
+    "editor.window.codeEditor.closeScript": "Remove Shortcut",
+
     "editor.window.createScript": "New Script",
+    "editor.window.createScript.inherits": "inherits",
     "editor.window.sugarcube": "SugarCube",
     "editor.window.javascript": "Javascript",
     "editor.window.cappuccino": "Cappuccino",
+    
     "editor.window.typed.commentMessage": "This is a default behavior!",
     "editor.window.typed.initMessage": "Code for initilization goes here.",
     "editor.window.typed.updateMessage": "Code for each frame goes here.",
@@ -151,6 +159,9 @@
     "editor.window.createBlock.addLabel": "Label",
     "editor.window.createBlock.statementInput": "Statement",
     "editor.window.createBlock.referenceInput": "Function",
+
+    "editor.window.properties": "Properties",
+    "editor.window.properties.noFile": "No File Selected",
 
     "sugarcube.motion": "Motion",
     "sugarcube.motion.block.movesteps":"move [steps] steps",
@@ -352,5 +363,13 @@
     "sugarcube.files": "Files",
     "sugarcube.files.block.setFile": "set file [file] to [content]",
     "sugarcube.files.block.getFile": "contents of [file]",
-    "sugarcube.files.block.getFileExistance": "does [file] exist"
+    "sugarcube.files.block.getFileExistance": "does [file] exist",
+
+    "engine.nodeNames.scene": "Scene",
+    "engine.nodeNames.Node": "Node",
+    "engine.nodeNames.Node2D": "Node 2D",
+    "engine.nodeNames.Sprite": "Sprite",
+    "engine.nodeNames.Node3D": "Node 3D",
+    "engine.nodeNames.Camera": "Camera",
+    "engine.nodeNames.MeshDisplay": "Mesh Display"
 }
