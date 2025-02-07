@@ -47,7 +47,7 @@
     "engine.settings.category.Window.barStyle.Aero": "Shaded",
 
     "engine.settings.category.Viewport": "Viewport",
-    
+
     "engine.settings.category.Viewport.mouseSensitivity": "Mouse Sensitivity",
     "engine.settings.category.Viewport.forward": "Move Forward",
     "engine.settings.category.Viewport.left": "Move Left",
@@ -83,6 +83,7 @@
     "engine.settings.category.SugarCube.blockColoration.Default": "Default",
     "engine.settings.category.SugarCube.blockColoration.Pastel": "Pastel",
     "engine.settings.category.SugarCube.blockColoration.Dark": "Neon",
+    "engine.settings.category.SugarCube.blockColoration.Monotone": "Monotone",
 
     "engine.settings.category.Monaco": "Monaco",
     "engine.settings.category.Monaco.fontSize": "Font Size",
@@ -129,9 +130,9 @@
     "editor.dropdown.scene.save": "Save Scene",
     "editor.dropdown.scene.load": "Load Scene",
 
-    "editor.notification.saveScene": "Scene saved to \"[path]\"",
-    "editor.notification.saveScript": "Saved \"[path]\" sucessfully",
-    "editor.notification.compileScript": "Compiled \"[input]\" as \"[output]\" sucessfully",
+    "editor.notification.saveScene": 'Scene saved to "[path]"',
+    "editor.notification.saveScript": 'Saved "[path]" sucessfully',
+    "editor.notification.compileScript": 'Compiled "[input]" as "[output]" sucessfully',
 
     "editor.window.debugLog": "Log",
     "editor.window.debugLog.clear": "clear",
@@ -315,6 +316,7 @@
     "sugarcube.scene.block.getMyself": "myself",
     "sugarcube.scene.block.getRoot": "scene root",
     "sugarcube.scene.block.getName": "name of [object]",
+    "sugarcube.scene.block.getScript": "script of [object]",
     "sugarcube.scene.block.getChildren": "children of [object]",
     "sugarcube.scene.block.getParentOf": "parent of [object]",
     "sugarcube.scene.block.setVariable": "set variable [variable] of [object] to [value]",
@@ -376,14 +378,15 @@
     "sugarcube.strings.menu.caseTypes.title-case": "title-case",
 
     "sugarcube.variables": "Variables",
-    "sugarcube.variables.general": "General Blocks",
     "sugarcube.variables.block.openVariableMenu": "New Variable",
     "sugarcube.variables.block.setVariable": "set [variable] to [val]",
     "sugarcube.variables.block.setVariable.defaultValue": "cocoa",
     "sugarcube.variables.block.changeVariable": "change [variable] by [val]",
     "sugarcube.variables.block.multiplyVariable": "multiply [variable] by [val]",
+    "sugarcube.variables.contextMenu.removeVariable": "Remove Variable",
 
     "sugarcube.variables.objectLike.substitute": "substitute [objectLike] with [value]",
+    "sugarcube.variables.objectLike.deletionConfirmation": 'Are you sure you want to delete "[variable]"?',
 
     "sugarcube.lists": "Lists",
     "sugarcube.lists.value.item": "item",
@@ -398,6 +401,7 @@
     "sugarcube.lists.block.getItemNumber": "item # of [value] in [list]",
     "sugarcube.lists.block.length": "length of [list]",
     "sugarcube.lists.block.getItemContainment": "[list] contains [value]",
+    "sugarcube.lists.contextMenu.removeList": "Remove List",
 
     "sugarcube.tables": "Tables",
     "sugarcube.tables.value.key": "key",
@@ -406,6 +410,7 @@
     "sugarcube.tables.block.getKey": "get [key] in [table]",
     "sugarcube.tables.block.getKeys": "keys of [table]",
     "sugarcube.tables.block.getValues": "values of [table]",
+    "sugarcube.tables.contextMenu.removeTable": "Remove Table",
 
     "sugarcube.myblocks": "My Blocks",
     "sugarcube.myblocks.block.openCustomBlockMenu": "New Block",
@@ -425,8 +430,12 @@
 
     "sugarcube.files": "Files",
     "sugarcube.files.block.setFile": "set file [file] to [content]",
-    "sugarcube.files.block.getFile": "contents of [file]",
+    "sugarcube.files.block.getFile": "contents of [file] as [type]",
     "sugarcube.files.block.getFileExistance": "does [file] exist",
+    "sugarcube.files.menu.asMenu.text": "Text",
+    "sugarcube.files.menu.asMenu.JSON": "Table",
+    "sugarcube.files.menu.asMenu.byte": "Byte Array",
+    "sugarcube.files.menu.asMenu.dataURL": "Data URL",
 
     "engine.nodeNames.scene": "Scene",
     "engine.nodeNames.Node": "Node",
@@ -441,21 +450,21 @@
     "engine.nodeNames.Billboard": "Billboard",
 
     "engine.nodePropertyLabels.NothingHere": "Nothing here!",
-    "engine.nodeProperties.Node.name":"Name",
-    "engine.nodeProperties.Node.script":"Script",
-    "engine.nodeProperties.Node.modulatedColor":"Modulated Color",
-    "engine.nodeProperties.Node.position":"Position",
-    "engine.nodeProperties.Node.rotation":"Rotation",
-    "engine.nodeProperties.Node.scale":"Scale",
-    "engine.nodeProperties.Node2D.layer":"Layer",
+    "engine.nodeProperties.Node.name": "Name",
+    "engine.nodeProperties.Node.script": "Script",
+    "engine.nodeProperties.Node.modulatedColor": "Modulated Color",
+    "engine.nodeProperties.Node.position": "Position",
+    "engine.nodeProperties.Node.rotation": "Rotation",
+    "engine.nodeProperties.Node.scale": "Scale",
+    "engine.nodeProperties.Node2D.layer": "Layer",
     "engine.nodeProperties.Sprite.spritePath": "Sprite Path",
     "engine.nodeProperties.Sprite.scaleMultiplier": "Scale Multiplier",
     "engine.nodeProperties.Billboard.omnidirectional": "Omnidirectional",
     "engine.nodeProperties.MeshDisplay.meshPath": "Mesh Path",
     "engine.nodeProperties.MeshDisplay.material": "Material",
 
-    "engine.nodeProperties.scene.skyColor":"Sky Color",
-    "engine.nodeProperties.scene.horizonColor":"Horizon Color",
-    "engine.nodeProperties.scene.groundColor":"Ground Color",
-    "engine.nodeProperties.scene.centerColor":"Core Color"
+    "engine.nodeProperties.scene.skyColor": "Sky Color",
+    "engine.nodeProperties.scene.horizonColor": "Horizon Color",
+    "engine.nodeProperties.scene.groundColor": "Ground Color",
+    "engine.nodeProperties.scene.centerColor": "Core Color"
 }
