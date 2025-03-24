@@ -134,12 +134,16 @@
     "editor.notification.saveScript": "Saved \"[path]\" sucessfully",
     "editor.notification.compileScript": "Compiled \"[input]\" as \"[output]\" sucessfully",
 
+    "editor.window.projectManager": "Project Settings",
+
     "editor.window.debugLog": "Log",
     "editor.window.debugLog.clear": "clear",
 
     "editor.window.sceneTree": "Scene Tree",
     "editor.window.sceneTree.addObject": "Add Node",
 
+    "editor.window.sceneTree.addChild": "Add Child",
+    "editor.window.sceneTree.addDuplicateChild": "Duplicate as Child",
     "editor.window.sceneTree.duplicate": "Duplicate Node",
     "editor.window.sceneTree.delete": "Remove Node",
 
@@ -172,6 +176,8 @@
     "editor.window.typed.commentMessage": "This is a default behavior!",
     "editor.window.typed.initMessage": "Code for initilization goes here.",
     "editor.window.typed.updateMessage": "Code for each frame goes here.",
+    "editor.window.typed.clickUncommentMessage": "If you want custom click code uncomment this function.",
+    "editor.window.typed.clickMessage": "Code for when the node is clicked",
     "editor.window.typed.drawUncommentMessage": "If you want custom draw code uncomment this function.",
     "editor.window.typed.drawMessage": "Draw Code Here",
 
@@ -195,6 +201,7 @@
     "editor.window.createBlock.addLabel": "Label",
     "editor.window.createBlock.statementInput": "Statement",
     "editor.window.createBlock.referenceInput": "Function",
+    "editor.window.createBlock.returns": "Returns a Value",
 
     "editor.window.properties": "Properties",
     "editor.window.properties.noFile": "No file selected",
@@ -238,8 +245,7 @@
     "sugarcube.looks.block.setTint": "tint myself [tint]",
 
     "sugarcube.sounds": "Sounds",
-    "sugarcube.sounds.block.playLocal": "play [sound]",
-    "sugarcube.sounds.block.playGlobal": "play [sound] globally",
+    "sugarcube.sounds.block.playGlobal": "play [sound]",
     "sugarcube.sounds.block.playAtXY": "play [sound] at x: [x] y: [y]",
     "sugarcube.sounds.block.playAtXYZ": "play [sound] at x: [x] y: [y] z: [z]",
 
@@ -255,17 +261,25 @@
     "sugarcube.controls.block.wait": "wait [seconds] seconds",
     "sugarcube.controls.block.ifStatement": "if [condition] then [dummy] [statement]",
     "sugarcube.controls.block.ifElse_Statement": "if [condition] then [dummy] [statement] else [dummy2] [statement2]",
+    "sugarcube.controls.block.switch_Statement": "switch [condition] [statement] default [dummy] [default]",
+    "sugarcube.controls.block.branch_Statement": "case [condition] [statement]",
     "sugarcube.controls.block.repeat": "repeat [num] [dummy] [statement]",
     "sugarcube.controls.block.foreach": "for each item in [array] do [dummy] [statement]",
     "sugarcube.controls.block.repeatUNT": "repeat until [condition] [dummy] [statement]",
     "sugarcube.controls.block.while": "while [condition] [dummy] [statement]",
+    "sugarcube.controls.block.continue": "continue [image]",
+    "sugarcube.controls.block.break": "break [image]",
     "sugarcube.controls.block.call": "call [reference]",
 
     "sugarcube.sensing": "Sensing",
+    "sugarcube.sensing.block.isTouching": "colliding?",
+    "sugarcube.sensing.block.pushDirections": "push directions",
     "sugarcube.sensing.block.isKeyDown": "key [key] pressed?",
     "sugarcube.sensing.block.mouseDown": "[button] mouse button down",
     "sugarcube.sensing.block.mouseX": "mouse x",
     "sugarcube.sensing.block.mouseY": "mouse y",
+    "sugarcube.sensing.block.lockMouse": "set mouse lock [mode]",
+    "sugarcube.sensing.block.lockStatus": "mouse locked?",
     "sugarcube.sensing.block.controllerConnected": "is controller [id] connected?",
     "sugarcube.sensing.block.controllerID": "ID of controller [id]",
     "sugarcube.sensing.block.controllerAxis": "axis [axis] of controller [id]",
@@ -279,6 +293,8 @@
     "sugarcube.sensing.menu.mouseButtons.tertiary": "tertiary",
     "sugarcube.sensing.menu.mouseButtons.quaternary": "quaternary",
     "sugarcube.sensing.menu.mouseButtons.quinary": "quinary",
+    "sugarcube.sensing.menu.lockStatus.lock": "enabled",
+    "sugarcube.sensing.menu.lockStatus.unlock": "disabled",
     "sugarcube.sensing.menu.timespans.century": "century",
     "sugarcube.sensing.menu.timespans.decade": "decade",
     "sugarcube.sensing.menu.timespans.year": "year",
@@ -340,6 +356,10 @@
     "sugarcube.operators.block.modulo": "[A] mod [B]",
     "sugarcube.operators.block.round": "round [A]",
     "sugarcube.operators.block.arithmatic": "[A] of [B]",
+    "sugarcube.operators.block.and": "[A] and [B]",
+    "sugarcube.operators.block.or": "[A] or [B]",
+    "sugarcube.operators.block.xor": "either [A] or [B]",
+    "sugarcube.operators.block.not": "not [A]",
     "sugarcube.operators.menu.operations.abs": "abs",
     "sugarcube.operators.menu.operations.floor": "floor",
     "sugarcube.operators.menu.operations.ceiling": "ceiling",
@@ -386,6 +406,7 @@
     "sugarcube.variables.contextMenu.removeVariable": "Remove Variable",
 
     "sugarcube.variables.objectLike.substitute": "substitute [objectLike] with [value]",
+    "sugarcube.variables.objectLike.originate": "make [objectLike] original",
     "sugarcube.variables.objectLike.deletionConfirmation": "Are you sure you want to delete \"[variable]\"?",
 
     "sugarcube.lists": "Lists",
@@ -462,6 +483,11 @@
     "engine.nodeProperties.Billboard.omnidirectional": "Omnidirectional",
     "engine.nodeProperties.MeshDisplay.meshPath": "Mesh Path",
     "engine.nodeProperties.MeshDisplay.material": "Material",
+    "engine.nodeProperties.Camera.fov": "FOV",
+    "engine.nodeProperties.Camera.nearPlane": "nearPlane",
+    "engine.nodeProperties.Camera.flatten": "Orthographic",
+    "engine.nodeProperties.Camera.zoom": "Camera Zoom",
+    "engine.nodeProperties.Camera.active": "Active",
 
     "engine.nodeProperties.scene.skyColor": "Sky Color",
     "engine.nodeProperties.scene.horizonColor": "Horizon Color",
