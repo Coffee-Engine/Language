@@ -117,10 +117,12 @@
     "engine.generic.back": "Back",
     "engine.generic.done": "Done",
 
+    "engine.projectSettings.project": "Project",
     "engine.projectSettings.project.defaultScene": "Default Scene",
     "engine.projectSettings.project.targetFramerate": "Target FPS",
     "engine.projectSettings.project.VSync": "VSync Enabled",
 
+    "engine.projectSettings.viewport": "Viewport",
     "engine.projectSettings.viewport.viewportType": "Viewport Type",
     "engine.projectSettings.viewport.resolution": "Viewport Resolution",
     "engine.projectSettings.viewport.antiAlias": "Anti-Aliasing",
@@ -134,13 +136,20 @@
     "engine.projectSettings.broadcasts.add": "Add",
     "engine.projectSettings.broadcasts.placeholder": "Broadcast",
 
+    "engine.projectSettings.collision": "Collision",
     "engine.projectSettings.collisionGroups": "Collision Groups",
     "engine.projectSettings.collisionGroups.add": "Add",
     "engine.projectSettings.collisionGroups.placeholder": "Group",
 
+    "engine.projectSettings.extensions": "Extensions",
+    "engine.projectSettings.extensions.createExtension": "Create Extension",
+    "engine.projectSettings.extensions.extensionInfo": "Author: [Author] | Version: [Version]",
+
     "editor.fileButton.removeFile": "Remove File",
 
     "editor.dropdown.project": "Project",
+    "editor.dropdown.project.importFiles": "Import file(s)",
+    "editor.dropdown.project.importLatte": "Import .latte",
     "editor.dropdown.project.save": "Save Project",
     "editor.dropdown.project.saveSeperate": "Save a Copy",
     "editor.dropdown.project.saveDecaf": "Save Project as .decaf",
@@ -160,8 +169,35 @@
     "editor.notification.saveScene": "Scene saved to \"[path]\"",
     "editor.notification.saveScript": "Saved \"[path]\" sucessfully",
     "editor.notification.compileScript": "Compiled \"[input]\" as \"[output]\" sucessfully",
+    "editor.notification.extensionReloaded": "Reloaded \"[extension]\" sucessfully",
 
     "editor.window.projectManager": "Project Settings",
+    "editor.window.extensionWizard": "Extension Wizard",
+    "editor.window.extensionWizard.previous": "previous",
+    "editor.window.extensionWizard.next": "next",
+    
+    "editor.window.extensionWizard.firstPage": "Welcome to the Coffee Engine extension wizard! This is a tool that will help you quickly set up the skeleton for an extension. To continue press \"Next\"",
+
+    "editor.window.extensionWizard.secondPage.extensionName": "Extension Name",
+    "editor.window.extensionWizard.secondPage.extensionName.placeholder": "Cool Extension",
+    "editor.window.extensionWizard.secondPage.authorName": "Your Name",
+    "editor.window.extensionWizard.secondPage.authorName.placeholder": "Barista",
+    "editor.window.extensionWizard.secondPage.version": "Version",
+    "editor.window.extensionWizard.secondPage.version.placeholder": "1.0.0",
+
+    "editor.window.extensionWizard.thirdPage": "What would you like to be automatically generated for you?",
+    "editor.window.extensionWizard.thirdPage.hasScript": "Engine Script",
+    "editor.window.extensionWizard.thirdPage.hasEditorScript": "Editor Script",
+    "editor.window.extensionWizard.thirdPage.hasNode": "Custom Node",
+    "editor.window.extensionWizard.thirdPage.hasSugarcubeBlocks": "Sugarcube Blocks",
+    "editor.window.extensionWizard.thirdPage.hasWindow": "Custom Window",
+    
+    "editor.window.extensionWizard.engineText": "This script will run in both the engine and editor.",
+    "editor.window.extensionWizard.editorText": "This script will run in the editor.",
+    "editor.window.extensionWizard.logText": "Extension [name] loaded!",
+    "editor.window.extensionWizard.defaultBlock": "log timer",
+    "editor.window.extensionWizard.defaultWindow": "The \"Content\" argument in \"init\" is an HTML div",
+    "editor.window.extensionWizard.cleanupComment": "extension cleanup code",
 
     "editor.window.debugLog": "Log",
     "editor.window.debugLog.clear": "clear",
@@ -181,6 +217,7 @@
     "editor.window.fileExplorer.reading": "Reading Files",
     "editor.window.fileExplorer.delete": "Delete",
     "editor.window.fileExplorer.rename": "Rename",
+    "editor.window.fileExplorer.package": "Package",
     "editor.window.fileExplorer.openInCode": "Open in Code Editor",
 
     "editor.window.viewport": "Viewport",
@@ -413,6 +450,8 @@
     "sugarcube.operators.block.or": "[A] or [B]",
     "sugarcube.operators.block.xor": "either [A] or [B]",
     "sugarcube.operators.block.not": "not [A]",
+    "sugarcube.operators.block.true": "true",
+    "sugarcube.operators.block.false": "false",
     "sugarcube.operators.menu.operations.abs": "abs",
     "sugarcube.operators.menu.operations.floor": "floor",
     "sugarcube.operators.menu.operations.ceiling": "ceiling",
@@ -561,6 +600,18 @@
     "engine.nodeProperties.scene.groundColor": "Ground Color",
     "engine.nodeProperties.scene.centerColor": "Core Color",
     "engine.nodeProperties.scene.ambientColor": "Ambient Color",
+
+    "engine.nodeProperties.scene.fogType": "Fog Type",
+    "engine.nodeProperties.scene.fogType.none": "No fog",
+    "engine.nodeProperties.scene.fogType.retro": "Retro",
+    "engine.nodeProperties.scene.fogType.simple": "Simple",
+    "engine.nodeProperties.scene.fogType.sunAffected": "Sun Affected",
+    
+    "engine.nodeProperties.scene.fogStart": "Fog Start",
+    "engine.nodeProperties.scene.fogFalloff": "Fog Falloff",
+    "engine.nodeProperties.scene.fogColor": "Fog Color",
+    "engine.nodeProperties.scene.skyEffect": "Fog Sky Mix",
+    "engine.nodeProperties.scene.sunMultiplier": "Fog Sun Affectiveness",
 
     "engine.fileProperties.Shader.shader" : "Shader"
 }
