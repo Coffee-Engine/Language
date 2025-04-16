@@ -219,6 +219,13 @@
     "editor.window.fileExplorer.rename": "Rename",
     "editor.window.fileExplorer.package": "Package",
     "editor.window.fileExplorer.openInCode": "Open in Code Editor",
+    "editor.window.fileExplorer.refresh": "Refresh files",
+    "editor.window.fileExplorer.createFile": "New file",
+    "editor.window.fileExplorer.importFiles": "Import file(s)",
+
+    "editor.window.createFile" : "Create File",
+    "editor.window.createFile.blank" : "blank",
+    "editor.window.createFile.material" : "material",
 
     "editor.window.viewport": "Viewport",
 
@@ -256,6 +263,7 @@
     "editor.window.createVar.variable": "Variable",
     "editor.window.createVar.list": "List",
     "editor.window.createVar.object": "Table",
+    "editor.window.createVar.isPublic": "Public",
 
     "editor.window.createBlock": "Create a Block",
     "editor.window.createBlock.textInput": "Text",
@@ -584,7 +592,7 @@
     "engine.nodeProperties.Sprite.scaleMultiplier": "Scale Multiplier",
     "engine.nodeProperties.Billboard.omnidirectional": "Omnidirectional",
     "engine.nodeProperties.MeshDisplay.meshPath": "Mesh Path",
-    "engine.nodeProperties.MeshDisplay.material": "Material",
+    "engine.nodeProperties.MeshDisplay.material": "Material [number]",
     "engine.nodeProperties.Camera.fov": "FOV",
     "engine.nodeProperties.Camera.nearPlane": "Near Plane",
     "engine.nodeProperties.Camera.flatten": "Orthographic",
@@ -613,5 +621,7 @@
     "engine.nodeProperties.scene.skyEffect": "Fog Sky Mix",
     "engine.nodeProperties.scene.sunMultiplier": "Fog Sun Affectiveness",
 
-    "engine.fileProperties.Shader.shader" : "Shader"
+    "engine.fileProperties.Shader.shader" : "Shader",
+
+    "runtime.debugText": "Press shift + i to open the debug console"
 }
